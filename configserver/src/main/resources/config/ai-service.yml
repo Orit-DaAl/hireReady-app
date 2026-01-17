@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: ai-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hireready_preparations
+      database: hireready_preparations
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASSWORD}
+
+rabbitmq:  
+  exchange:
+    name: hireready.exchange
+  queue:
+    name: jobinterview.queue
+    statusUpdateName: interview.status.queue
+  routing:
+    key: jobinterview.created
+    statusUpdateKey: interview.status.update
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+     hostname: localhost
+     prefer-ip-address: true
+
+server:
+  port: 9093
+
+gemini:
+  api:
+    url: ${GEMINI_API_URL}
+    key: ${GEMINI_API_KEY}

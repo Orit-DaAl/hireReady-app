@@ -1,0 +1,22 @@
+package com.hireReady.gateway.dto;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+import lombok.Data;
+
+@Data
+public class UserRequestDTO {
+
+	@NotBlank(message = "Email is required")
+	@Email(message = "Invalid email format")
+	private String email;
+	
+	@NotBlank(message= "Password is required")
+	@Size(min=6, message ="Password must have at list of 6 characters")
+	private String password;
+	private String keycloakId;
+	@NotBlank(message="Username is required")
+	private String firstName;
+	private String lastName;
+} 
