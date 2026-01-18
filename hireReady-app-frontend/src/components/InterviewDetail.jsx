@@ -180,16 +180,35 @@ const InterviewDetail = () => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-              {data?.focusAreas?.map((item, i) => (
-                <Chip 
-                  key={i} 
-                  label={item} 
-                  sx={{ bgcolor: '#e8f5e9', color: '#2e7d32', fontWeight: 'bold', p: 1 }} 
-                />
-              ))}
-            </Box>
-          </AccordionDetails>
+          <Stack spacing={1.5}>
+            {data?.focusAreas?.map((item, i) => (
+              <Paper 
+                key={i} 
+                variant="outlined" 
+                sx={{ 
+                  p: 2, 
+                  bgcolor: '#e8f5e9', 
+                  border: '1px solid #c8e6c9', 
+                  borderRadius: 2,
+               
+                  whiteSpace: 'normal', 
+                  wordBreak: 'break-word' 
+                }}
+              >
+                <Typography 
+                  variant="body2" 
+                  sx={{ 
+                    color: '#2e7d32', 
+                    fontWeight: '600',
+                    lineHeight: 1.5 
+                  }}
+                >
+                  {item}
+                </Typography>
+              </Paper>
+            ))}
+          </Stack>
+        </AccordionDetails>
         </Accordion>
 
         {/* Expert Tips Section */}

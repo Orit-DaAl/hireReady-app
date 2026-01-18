@@ -6,6 +6,15 @@ Built with **Java Spring Boot** (backend) and **React + Vite** (frontend).
 
 ---
 
+<div align="center">
+  <h2>📺 Application Demo</h2>
+  <video src="https://github.com/user-attachments/assets/96ee202f-0a3d-4558-9836-d5e37d3169f3" controls="controls" style="max-width: 100%; border-radius: 10px;">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+
 ## 🏗️ System Architecture
 
 The platform is designed for high scalability and modularity, using a distributed microservices approach:
@@ -24,7 +33,7 @@ The platform is designed for high scalability and modularity, using a distribute
     * **AI Service:** An asynchronous service that listens to RabbitMQ. It analyzes interview details using **Google Gemini AI** to generate a custom preparation kit.
     * **Database:** **MongoDB**.
 
-![](./img/flow.png)
+![](./assets/flow.png)
 ---
 
 ## 🧠 AI Intelligence Layer (The "Prep Kit")

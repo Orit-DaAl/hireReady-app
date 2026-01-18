@@ -117,7 +117,7 @@ public class InterviewAIService {
 								Analyze this job interview opportunity and provide professional preparation guidelines in the following EXACT JSON format:
 								{
 								  "analysis": {
-								    "roleOverview": "Exactly two concise and focused paragraphs analyzing the role and the strategy for success.",
+								    "roleOverview": "Exactly two concise and focused paragraphs analyzing the role and the strategy for success. Each paragraph MUST NOT exceed 3 sentences.",
 								    "keyRequirements": "The most important skills needed based on the description.",
 								    "companyCulture": "Exactly two sentences about the company's culture and values."
 								  },
@@ -156,7 +156,7 @@ public class InterviewAIService {
 								5. If 'MANAGER': Leadership and project delivery.
 								
 								General Constraints:
-								- 'roleOverview': Exactly 2 paragraphs.
+								- 'roleOverview': Exactly 2 paragraphs. Each paragraph: max 3 sentences.
 								- 'companyCulture': Exactly 2 sentences.
 								- Return ONLY the JSON object.
                 """,
