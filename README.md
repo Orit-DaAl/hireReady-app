@@ -5,9 +5,10 @@
 Built with **Java Spring Boot** (backend) and **React + Vite** (frontend).
 
 ---
+
 <div align="center">
   <h2>📺 Application Demo</h2>
-  <video src="./assets/hireReadyApp.mp4" controls="controls" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <video src="https://github.com/user-attachments/assets/96ee202f-0a3d-4558-9836-d5e37d3169f3" controls="controls" style="max-width: 100%; border-radius: 10px;">
     Your browser does not support the video tag.
   </video>
 </div>
