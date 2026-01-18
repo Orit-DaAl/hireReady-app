@@ -5,6 +5,14 @@
 Built with **Java Spring Boot** (backend) and **React + Vite** (frontend).
 
 ---
+<div align="center">
+  <h2>📺 Application Demo</h2>
+  <video src="./assets/hireReadyApp.mp4" controls="controls" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
 
 ## 🏗️ System Architecture
 
@@ -24,7 +32,7 @@ The platform is designed for high scalability and modularity, using a distribute
     * **AI Service:** An asynchronous service that listens to RabbitMQ. It analyzes interview details using **Google Gemini AI** to generate a custom preparation kit.
     * **Database:** **MongoDB**.
 
-![](./img/flow.png)
+![](./assets/flow.png)
 ---
 
 ## 🧠 AI Intelligence Layer (The "Prep Kit")
