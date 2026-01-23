@@ -124,5 +124,5 @@ To keep sensitive data secure, define the following variables in your environmen
 
 
 📞 Contact with me: 
-**Orit Alster** - [LinkedIn Profile](https://www.linkedin.com/in/orit-davidyan-alster-61aa2b144)
+**Orit Alster** - [LinkedIn Profile](https://www.linkedin.com/in/orit-alster/)
 
