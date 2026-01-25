@@ -5,11 +5,12 @@
 Built with **Java Spring Boot** (backend) and **React + Vite** (frontend).
 
 ---
-<div align="center">
-  <h2>📺 Application Demo</h2>
-  <video src="./assets/hireReadyApp.mp4" controls="controls" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    Your browser does not support the video tag.
-  </video>
+
+<<div align="center">
+  <h2>✨ Application Demo</h2>
+  <img src="./assets/demo.gif" 
+       alt="Application Demo" 
+       style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ---
@@ -123,5 +124,4 @@ To keep sensitive data secure, define the following variables in your environmen
 
 
 📞 Contact with me: 
-**Orit Alster** - [LinkedIn Profile](https://www.linkedin.com/in/orit-davidyan-alster-61aa2b144)
-
+**Orit Alster** - [LinkedIn Profile](https://www.linkedin.com/in/orit-alster/)
